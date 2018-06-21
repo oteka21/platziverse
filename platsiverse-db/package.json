@@ -1,0 +1,27 @@
+{
+  "name": "platsiverse-db",
+  "version": "1.0.0",
+  "description": "a simple IoT platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oteka21/platziverse.git"
+  },
+  "author": "leonardo oteca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oteka21/platziverse/issues"
+  },
+  "homepage": "https://github.com/oteka21/platziverse#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
+  }
+}
